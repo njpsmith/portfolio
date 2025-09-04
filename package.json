@@ -10,9 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.1.12",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "tailwind": "^4.0.0",
+    "tailwindcss": "^4.1.12",
     "three": "^0.180.0",
     "vanta": "^0.5.24"
   },
