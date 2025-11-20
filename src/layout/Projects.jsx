@@ -1,5 +1,4 @@
 import Card from '../components/Card';
-
 import { motion } from 'framer-motion';
 
 const Projects = () => {
@@ -14,14 +13,6 @@ const Projects = () => {
 
 				<ul className="project-list" role="list">
 					<li className="project-item">
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-						<br />
-
-						<br />
 						<Card
 							title="Tesco Pet Insurance - Quote & Buy journey"
 							// 			blurb="Video course that teaches how to build a web app with the Spotify Web

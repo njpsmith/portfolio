@@ -68,6 +68,15 @@ const Header = () => {
 								</span>
 							</a>
 						</li>
+
+						<li>
+							<a className="group flex items-center py-3" href="#contact">
+								<span className="nav-indicator mr-4 h-px w-8 bg-slate-300 transition-all group-hover:w-16  group-focus-visible:w-16 motion-reduce:transition-none"></span>
+								<span className="nav-text text-xs font-bold uppercase tracking-widest">
+									Contact
+								</span>
+							</a>
+						</li>
 					</ul>
 				</nav>
 

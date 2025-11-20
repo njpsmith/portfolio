@@ -30,10 +30,12 @@ const About = () => {
 				</p>
 
 				<p>London-based, coffee drinker, learning to speak Italian.</p>
+				{/*watching non-league football, */}
 				<p>
-					In my spare time I can be found watching non-league football, drinking
-					coffee, and learning to speak Italian.
+					In my spare time I can be found mixing margaritas, planning trips to
+					Japan, drinking coffee, and learning to speak Italian.
 				</p>
+				<p>Here's a haiku I wrote about coding</p>
 
 				<p>
 					<a className="btn-primary" href="#contact">
