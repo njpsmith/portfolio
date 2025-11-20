@@ -1,13 +1,10 @@
-import { useState, useEffect, useRef } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
-import './App.css';
+import { useEffect, useRef } from 'react';
+import './tailwind.css';
 import * as THREE from 'three';
 import FOG from 'vanta/dist/vanta.fog.min.js';
+import Layout from './Layout';
 
 function App() {
-    const [count, setCount] = useState(0);
-
     const vantaRef = useRef(null);
     const vantaEffect = useRef(null);
 
@@ -20,6 +17,7 @@ function App() {
                 touchControls: true,
                 minHeight: 200.0,
                 minWidth: 200.0,
+
                 // highlightColor: 0xffffff,
                 // midtoneColor: 0xaaaaaa,
                 // lowlightColor: 0x222222,
@@ -28,12 +26,18 @@ function App() {
                 // highlightColor: 0xf5f5f5,
                 // midtoneColor: 0x898989,
                 // lowlightColor: 0x414141,
-                // baseColor: 0xfafafa
+                // baseColor: 0xfafafa,
 
-                highlightColor: 0xffc300,
-                midtoneColor: 0xff1f00,
-                lowlightColor: 0x2d00ff,
-                baseColor: 0xffebeb,
+                // highlightColor: 0xffc300,
+                // midtoneColor: 0xff1f00,
+                // lowlightColor: 0x2d00ff,
+                // baseColor: 0xffebeb,
+
+                highlightColor: 0x73bb2c,
+                midtoneColor: 0x2a894f,
+                lowlightColor: 0x42793,
+                baseColor: 0xc9ebdc,
+
                 blurFactor: 0.23,
             });
         }
@@ -49,35 +53,7 @@ function App() {
     return (
         <div className="main-container">
             <div className="background-visual" ref={vantaRef}></div>
-            <div className="main-container__inner">
-                {/*<div ref={vantaRef} className="w-full h-[400px]" />;*/}
-
-                <div>
-                    <a href="https://vite.dev" target="_blank">
-                        <img src={viteLogo} className="logo" alt="Vite logo" />
-                    </a>
-                    <a href="https://react.dev" target="_blank">
-                        <img
-                            src={reactLogo}
-                            className="logo react"
-                            alt="React logo"
-                        />
-                    </a>
-                </div>
-                <h1>Nicholas Smith</h1>
-                <h2>Front End Developer</h2>
-                <div className="card">
-                    <button onClick={() => setCount((count) => count + 1)}>
-                        count is {count}
-                    </button>
-                    <p>
-                        Edit <code>src/App.jsx</code> and save to test HMR
-                    </p>
-                </div>
-                <p className="read-the-docs">
-                    Click on the Vite and React logos to learn more
-                </p>
-            </div>
+            <Layout />
         </div>
     );
 }
