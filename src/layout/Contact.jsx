@@ -6,7 +6,12 @@ const Contact = () => {
 			aria-labelledby="contact-heading"
 		>
 			<div className="container">
-				<h2 id="contact-heading">Contact</h2>
+				<h2
+					id="contact-heading"
+					className="text-xl font-bold py-5 lg:p-0 sticky top-0 z-20 lg:relative mb-4"
+				>
+					Contact
+				</h2>
 
 				<p>
 					Contact me: Lorem ipsum dolor sit amet, consectetur adipiscing elit.

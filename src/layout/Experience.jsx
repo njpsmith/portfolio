@@ -8,7 +8,12 @@ const Experience = () => {
 			aria-labelledby="experience-heading"
 		>
 			<div className="container">
-				<h2 id="experience-heading">Experience</h2>
+				<h2
+					id="experience-heading"
+					className="text-xl font-bold py-5 lg:p-0 sticky top-0 z-20 lg:relative mb-4"
+				>
+					Experience
+				</h2>
 
 				<ul className="project-list" role="list">
 					<li className="project-item">

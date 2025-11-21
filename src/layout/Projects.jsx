@@ -8,7 +8,12 @@ const Projects = () => {
 			aria-labelledby="projects-heading"
 		>
 			<div className="container">
-				<h2 id="projects-heading">Selected Projects</h2>
+				<h2
+					id="projects-heading"
+					className="text-xl font-bold py-5 lg:p-0 sticky top-0 z-20 lg:relative mb-4"
+				>
+					Selected Projects
+				</h2>
 
 				<ul className="project-list" role="list">
 					<li className="project-item">

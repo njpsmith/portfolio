@@ -6,7 +6,13 @@ const About = () => {
 			aria-labelledby="about-heading"
 		>
 			<div className="container">
-				<h2 id="about-heading">About</h2>
+				{/*<h2 id="about-heading" className="text-xl uppercase tracking-widest font-bold">*/}
+				<h2
+					id="about-heading"
+					className="text-xl font-bold py-5 lg:p-0 sticky top-0 z-20 lg:relative mb-4"
+				>
+					About
+				</h2>
 
 				{/*<p>Short professional summary, skills and technologies.</p>*/}
 
@@ -14,7 +20,7 @@ const About = () => {
 					I build accessible, performant front-end experiences using React,
 					TypeScript and modern tooling.
 				</p>
-*/}
+			*/}
 				<p>
 					Front-end developer with 10+ years’ experience building high-quality,
 					user-focused web applications in fast-paced environments. Skilled in

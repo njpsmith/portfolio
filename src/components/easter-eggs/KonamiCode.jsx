@@ -121,7 +121,9 @@ const KonamiCode = () => {
 				<source src="/assets/music/varsity-sonda.mp3" type="audio/mpeg" />
 			</audio>
 
-			<div id="konamiMessage">🎉 You found the secret cat! 🎉</div>
+			<div id="konamiMessage" className="font-sans">
+				🎉 You found the secret cat! 🎉
+			</div>
 			<Nyan />
 		</div>
 	);
