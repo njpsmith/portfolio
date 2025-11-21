@@ -1,7 +1,9 @@
+import { motion } from 'framer-motion';
 import Header from './layout/Header';
 import Footer from './layout/Footer';
 import About from './layout/About';
 import Projects from './layout/Projects';
+import Experience from './layout/Experience';
 import Contact from './layout/Contact';
 
 const Layout = () => {
@@ -11,19 +13,26 @@ const Layout = () => {
 				<Header />
 
 				<div className="layout pt-24 lg:w-[50%] lg:py-24">
-					<main
-						id="main"
-						className="main mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
-						role="main"
+					<motion.div
+						initial={{ opacity: 0 }}
+						animate={{ opacity: 1 }}
+						transition={{ delay: 1.4, duration: 0.8, ease: 'easeOut' }}
 					>
-						<About />
+						<main
+							id="main"
+							className="main mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+							role="main"
+						>
+							<About />
 
-						<Projects />
+							<Experience />
+							<Projects />
 
-						<Contact />
-					</main>
+							<Contact />
+						</main>
 
-					<Footer />
+						<Footer />
+					</motion.div>
 				</div>
 			</div>
 		</div>

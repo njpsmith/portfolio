@@ -1,5 +1,4 @@
 import Card from '../components/Card';
-import { motion } from 'framer-motion';
 
 const Projects = () => {
 	return (
@@ -20,13 +19,9 @@ const Projects = () => {
 							// flows, Node, Express, React, Styled Components, and more."
 							blurb="Built using with React, TypeScript, ES6, Context API, Playwright, and RESTful APIs."
 						/>
-						<br />
-						<br />
-						<br />
-						<br />
 						<article className="project mb-16" aria-labelledby="proj-1-title">
 							<a href="project-1/index.html" className="project-link">
-								<h3 id="proj-1-title">Project One</h3>
+								<h3 id="proj-1-title">Project Two</h3>
 								<p className="project-summary">
 									Short summary — problem solved, tech used, outcome.
 								</p>
@@ -54,7 +49,7 @@ const Projects = () => {
 
 						<article className="project mb-16" aria-labelledby="proj-1-title">
 							<a href="project-1/index.html" className="project-link">
-								<h3 id="proj-1-title">Project One</h3>
+								<h3 id="proj-1-title">Project Three</h3>
 								<p className="project-summary">
 									Short summary — problem solved, tech used, outcome. Lorem
 									ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -77,7 +72,7 @@ const Projects = () => {
 								</a>
 							</div>
 						</article>
-
+						{/*
 						<article className="project mb-16" aria-labelledby="proj-1-title">
 							<a href="project-1/index.html" className="project-link">
 								<h3 id="proj-1-title">Project One</h3>
@@ -128,7 +123,7 @@ const Projects = () => {
 									Live
 								</a>
 							</div>
-						</article>
+						</article>*/}
 					</li>
 				</ul>
 			</div>

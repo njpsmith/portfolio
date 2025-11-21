@@ -8,13 +8,13 @@ const About = () => {
 			<div className="container">
 				<h2 id="about-heading">About</h2>
 
-				<p>Short professional summary, skills and technologies.</p>
+				{/*<p>Short professional summary, skills and technologies.</p>*/}
 
-				<p className="lead">
+				{/*				<p className="lead">
 					I build accessible, performant front-end experiences using React,
 					TypeScript and modern tooling.
 				</p>
-
+*/}
 				<p>
 					Front-end developer with 10+ years’ experience building high-quality,
 					user-focused web applications in fast-paced environments. Skilled in
@@ -35,16 +35,33 @@ const About = () => {
 					In my spare time I can be found mixing margaritas, planning trips to
 					Japan, drinking coffee, and learning to speak Italian.
 				</p>
-				<p>Here's a haiku I wrote about coding</p>
+				<small>
+					<p>
+						{/*<a href="/haiku">Here's a haiku I wrote about coding</a>.*/}
+						{/*<strong>Here's a haiku I wrote about coding:</strong>*/}
+						<br />
+						{/*Here's a haiku I wrote about coding:*/}
+						Here's a haiku about coding:
+					</p>
 
-				<p>
+					<p>コードの花 画面に咲き出す 光の詩</p>
+
+					<p>Kōdo no hana gamen ni saki dasu hikari no uta.</p>
+
+					<p>
+						Flowers of pure code, blossom across the bright screen, a poem of
+						light.
+					</p>
+				</small>
+
+				{/*<p>
 					<a className="btn-primary" href="#contact">
 						Hire me
 					</a>
 					<a className="btn-ghost" href="#projects">
 						See my work
 					</a>
-				</p>
+				</p>*/}
 			</div>
 		</section>
 	);

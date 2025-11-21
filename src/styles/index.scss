@@ -1,9 +1,29 @@
+@use '../components/easter-eggs/nyan';
+
 @font-face {
   font-family: 'InterVariable';
   src: url('./assets/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
   font-weight: 100 900; /* variable range */
   font-style: normal;
   font-display: swap;
+}
+
+// #konamiMessage {
+//   display: none;
+//   position: fixed;
+//   // top: 20px;
+//   // left: 50%;
+//   // transform: translateX(-50%);
+//   // background: #ff0;
+//   // color: black;
+//   // padding: 1rem 2rem;
+//   // border: 2px solid #000;
+//   // font-size: 1.5rem;
+//   z-index: 1000;
+// }
+
+html {
+  // scroll-behavior: smooth;
 }
 
 $copy-color: #1a1a1a;
@@ -24,6 +44,34 @@ a {
   color: $copy-color;
 }
 
+.layout {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-weight: bold;
+    // margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+small p {
+  margin-bottom: 0.5rem;
+}
+
+button {
+  color: $copy-color;
+  cursor: pointer;
+}
+
 .nav-indicator {
   color: $copy-color;
 }
@@ -39,10 +87,6 @@ a {
   position: relative;
 }
 
-// .main-container__inner {
-//   padding: 2rem;
-// }
-
 .background-visual {
   display: none;
   min-height: 100vh;
@@ -50,7 +94,6 @@ a {
   width: 100%;
   z-index: -1;
   position: absolute;
-  // background-color: black;
   background-color: white;
 
   canvas {
@@ -158,5 +201,28 @@ h1 {
 
   &:hover svg {
     transform: translate(0.25rem, -0);
+  }
+}
+
+.nav {
+  a:hover {
+    .nav-indicator {
+      background-color: #6a7282;
+    }
+
+    .nav-text {
+      opacity: 1;
+    }
+  }
+}
+
+.active {
+  .nav-indicator {
+    width: 64px;
+    background-color: #6a7282;
+  }
+
+  .nav-text {
+    opacity: 1;
   }
 }

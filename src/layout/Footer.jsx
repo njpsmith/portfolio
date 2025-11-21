@@ -7,6 +7,10 @@ const Footer = () => {
 					accessibility compliant. All text is set in the Inter typeface.
 				</p>
 				<p>
+					For a secret, enter the Konami Code (on desktop), or quickly tap the
+					screen five times (on mobile).
+				</p>
+				<p>
 					© <time>{new Date().getFullYear()}</time>
 					{/*Your Name — Built with care.*/}
 				</p>

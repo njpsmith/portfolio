@@ -8,6 +8,11 @@ const Contact = () => {
 			<div className="container">
 				<h2 id="contact-heading">Contact</h2>
 
+				<p>
+					Contact me: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					Pellentesque consectetur eget massa eu tincidunt. Praesent quis nisl
+					nisl. Mauris id volutpat tellus, quis pulvinar odio.
+				</p>
 				{/*<form
 								className="contact-form"
 								action="/api/contact"
