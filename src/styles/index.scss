@@ -8,24 +8,6 @@
   font-display: swap;
 }
 
-// #konamiMessage {
-//   display: none;
-//   position: fixed;
-//   // top: 20px;
-//   // left: 50%;
-//   // transform: translateX(-50%);
-//   // background: #ff0;
-//   // color: black;
-//   // padding: 1rem 2rem;
-//   // border: 2px solid #000;
-//   // font-size: 1.5rem;
-//   z-index: 1000;
-// }
-
-html {
-  // scroll-behavior: smooth;
-}
-
 $copy-color: #1a1a1a;
 
 body {
@@ -40,7 +22,6 @@ h4,
 h5,
 p,
 a {
-  // color: white;
   color: $copy-color;
 }
 
