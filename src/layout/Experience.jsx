@@ -27,19 +27,37 @@ Present | London, UK"
 						/>*/}
 
 						<article className="project mb-16" aria-labelledby="proj-1-title">
-							<a href="project-1/index.html" className="project-link">
-								<h3 id="proj-1-title">Job Title</h3>
-								<p className="project-summary">
-									Short summary — problem solved, tech used, outcome. Lorem
-									ipsum dolor sit amet, consectetur adipiscing elit. Proin
-									imperdiet libero a libero maximus iaculis. Ut porttitor,
-									tellus eu aliquam tristique, lectus lorem molestie libero, ac
-									laoreet libero lectus sed magna. Maecenas nec ipsum nunc.
-									Vivamus egestas leo cursus, volutpat turpis ut, hendrerit
-									quam.
-								</p>
-								<p className="project-meta">React · TypeScript · Vite</p>
-							</a>
+							<h3>Frontend Developer, Pinnacle Pet UK</h3>
+							<h4>Full-time Feb 2021 – Present | London, UK </h4>
+							<p className="project-summary">
+								Built and maintained the Quote & Buy insurance journeys and
+								customer portals for major UK brands including Sainsbury’s,
+								Tesco, Argos, Post Office, and RSPCA.
+								{/*<br />
+								<br />
+								Short summary — problem solved, tech used, outcome. Lorem ipsum
+								dolor sit amet, consectetur adipiscing elit. Proin imperdiet
+								libero a libero maximus iaculis. Ut porttitor, tellus eu aliquam
+								tristique, lectus lorem molestie libero, ac laoreet libero
+								lectus sed magna. Maecenas nec ipsum nunc. Vivamus egestas leo
+								cursus, volutpat turpis ut, hendrerit quam.*/}
+							</p>
+							<p className="project-meta">React · TypeScript · Playwright</p>
+						</article>
+
+						<article className="project mb-16" aria-labelledby="proj-1-title">
+							{/*<a href="project-1/index.html" className="project-link">*/}
+							<h3>Job Title</h3>
+							<p className="project-summary">
+								Short summary — problem solved, tech used, outcome. Lorem ipsum
+								dolor sit amet, consectetur adipiscing elit. Proin imperdiet
+								libero a libero maximus iaculis. Ut porttitor, tellus eu aliquam
+								tristique, lectus lorem molestie libero, ac laoreet libero
+								lectus sed magna. Maecenas nec ipsum nunc. Vivamus egestas leo
+								cursus, volutpat turpis ut, hendrerit quam.
+							</p>
+							<p className="project-meta">React · TypeScript · Vite</p>
+							{/*</a>*/}
 							{/*<div className="project-actions">
 								<a
 									href="https://project-1.live"

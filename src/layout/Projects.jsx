@@ -24,7 +24,7 @@ const Projects = () => {
 							// flows, Node, Express, React, Styled Components, and more."
 							blurb="Built using with React, TypeScript, ES6, Context API, Playwright, and RESTful APIs."
 						/>
-						<article className="project mb-16" aria-labelledby="proj-1-title">
+						{/*<article className="project mb-16" aria-labelledby="proj-1-title">
 							<a href="project-1/index.html" className="project-link">
 								<h3 id="proj-1-title">Project Two</h3>
 								<p className="project-summary">
@@ -76,7 +76,7 @@ const Projects = () => {
 									Live
 								</a>
 							</div>
-						</article>
+						</article>*/}
 						{/*
 						<article className="project mb-16" aria-labelledby="proj-1-title">
 							<a href="project-1/index.html" className="project-link">
