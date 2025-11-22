@@ -35,7 +35,8 @@ const About = () => {
 					technologies to solve real-world problems.
 				</p>
 
-				<p>London-based, coffee drinker, learning to speak Italian.</p>
+				{/*<p>
+				London-based, coffee drinker, learning to speak Italian.</p>*/}
 				{/*watching non-league football, */}
 				<p>
 					In my spare time I can be found mixing margaritas, planning trips to

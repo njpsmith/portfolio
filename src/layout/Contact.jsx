@@ -14,9 +14,27 @@ const Contact = () => {
 				</h2>
 
 				<p>
-					Contact me: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-					Pellentesque consectetur eget massa eu tincidunt. Praesent quis nisl
-					nisl. Mauris id volutpat tellus, quis pulvinar odio.
+					Whether you're looking to collaborate, need help with a project, or
+					just want to say hello, drop me a message. I’ll get back to you as
+					soon as I can.
+				</p>
+
+				<p>
+					Email:{' '}
+					<a href="mailto:smith.nicholasjp@gmail.com">
+						smith.nicholasjp@gmail.com
+					</a>
+				</p>
+				<p>
+					Find me on{' '}
+					<a
+						href="https://www.linkedin.com/in/nicholas-smith-97a90829/"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						LinkedIn
+					</a>
+					.
 				</p>
 				{/*<form
 								className="contact-form"

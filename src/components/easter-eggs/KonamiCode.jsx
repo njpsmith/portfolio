@@ -60,9 +60,9 @@ const KonamiCode = () => {
 		}
 	});
 
-	document.addEventListener('touchend', () => {
-		clearTimeout(holdTimer);
-	});
+	// document.addEventListener('touchend', () => {
+	// 	clearTimeout(holdTimer);
+	// });
 
 	//---------------------------------------------//
 	// Mouse clicks trigger
@@ -92,9 +92,9 @@ const KonamiCode = () => {
 		}
 	});
 
-	document.addEventListener('mouseup', () => {
-		clearTimeout(clickHoldTimer);
-	});
+	// document.addEventListener('mouseup', () => {
+	// 	clearTimeout(clickHoldTimer);
+	// });
 
 	//---------------------------------------------//
 	// Function to show message

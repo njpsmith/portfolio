@@ -27,16 +27,18 @@ const Card = ({ title, blurb }: CardProps) => {
 			</h3>
 			<p className="mt-2 text-gray-500 text-sm">{blurb}</p>
 
-			<img
-				alt="Build a Spotify Connected App Newline course marketing card"
-				loading="lazy"
-				width="200"
-				height="48"
-				decoding="async"
-				data-nimg="1"
-				className="aspect-video object-cover rounded border-2 border-slate-200/10  group-hover:border-slate-200/30 mt-3"
-				src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fcourse-card.png&w=640&q=75"
-			/>
+			<figure>
+				<img
+					alt="Build a Spotify Connected App Newline course marketing card"
+					loading="lazy"
+					width="200"
+					height="48"
+					decoding="async"
+					data-nimg="1"
+					className="aspect-video object-cover rounded border-2 border-slate-200/10  group-hover:border-slate-200/30 mt-3"
+					src="https://brittanychiang.com/_next/image?url=%2Fimages%2Fprojects%2Fcourse-card.png&w=640&q=75"
+				/>
+			</figure>
 		</motion.div>
 	);
 };

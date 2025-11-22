@@ -3,14 +3,17 @@ const Footer = () => {
 		<footer className="site-footer" role="contentinfo">
 			<div className="container">
 				<p>
-					Built with React.js, Vite, Tailwind CSS{/*, Three.js*/}. WCAG AA
-					accessibility compliant. All text is set in the Inter typeface.
+					Built with React.js, Vite, Tailwind CSS
+					{/*, Three.js*/}.{' '}
+					{/*WCAG AA
+					accessibility compliant. */}
+					All text is set in the Inter typeface.
 				</p>
 				<p>
 					For a secret, <strong>enter the Konami Code</strong> (on desktop), or{' '}
 					<strong>quickly tap the screen five times</strong> (on mobile).
 				</p>
-				<p>
+				<p className="text-center lg:text-left">
 					© <time>{new Date().getFullYear()}</time>
 					{/*Your Name — Built with care.*/}
 				</p>
