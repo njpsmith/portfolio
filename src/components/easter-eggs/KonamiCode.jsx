@@ -1,5 +1,7 @@
 import Nyan from './Nyan';
 
+// Music from https://uppbeat.io/
+
 const KonamiCode = () => {
 	//---------------------------------------------//
 	// Desktop trigger

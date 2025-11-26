@@ -1,5 +1,7 @@
-@use '../components/easter-eggs/nyan';
-@use '../components/badge';
+@import './variables';
+@import '../components/easter-eggs/nyan';
+@import '../components/badge';
+@import '../components/dark-mode-switch';
 
 @font-face {
   font-family: 'InterVariable';
@@ -8,8 +10,6 @@
   font-style: normal;
   font-display: swap;
 }
-
-$copy-color: #1a1a1a;
 
 body {
   font-family: 'InterVariable', sans-serif;

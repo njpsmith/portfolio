@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, animate } from 'framer-motion';
 import { Github, Linkedin } from 'lucide-react';
+import DarkModeSwitch from '../components/DarkModeSwitch';
 
 const Navigation = () => {
 	const [activeSection, setActiveSection] = useState('about');
@@ -117,6 +118,8 @@ const Navigation = () => {
 					</li>
 				</ul>
 			</nav>
+
+			<DarkModeSwitch />
 		</motion.div>
 	);
 };
