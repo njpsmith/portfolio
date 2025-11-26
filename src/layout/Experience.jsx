@@ -92,9 +92,8 @@ const Experience = () => {
 					]}
 				/>
 
-				<p>
+				<p className="external-link text-center">
 					<a
-						className="external-link ml-4"
 						href="https://www.dropbox.com/scl/fi/rn2yvslma5hwa15h0thpz/Nicholas_Smith_CV.pdf?rlkey=2gx8airlbl6omlqor88e9a5cd&e=1&st=mlxk2md1&dl=0"
 						target="_blank"
 						rel="noopener noreferrer"

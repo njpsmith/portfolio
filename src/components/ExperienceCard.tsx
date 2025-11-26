@@ -22,7 +22,7 @@ const ExperienceCard = ({ title, subtitle, blurb, badges }: CardProps) => {
 			))}
 
 			<ul
-				className="mt-2 flex flex-wrap badges"
+				className="-mt-2 lg:mt-2 flex flex-wrap badges"
 				aria-label="Technologies used:"
 			>
 				{badges.map((badge, index) => {
