@@ -1,4 +1,5 @@
-import Card from '../components/Card';
+import ExperienceCard from '../components/ExperienceCard';
+import { SquareArrowOutUpRight } from 'lucide-react';
 
 const Experience = () => {
 	return (
@@ -10,67 +11,99 @@ const Experience = () => {
 			<div className="container">
 				<h2
 					id="experience-heading"
-					className="text-xl font-bold py-5 lg:p-0 sticky top-0 z-20 lg:relative mb-4"
+					className="text-xl font-bold mb-0 py-5 lg:pb-4 lg:pt-0 sticky top-0 z-20 lg:relative"
 				>
 					Experience
 				</h2>
+				<ExperienceCard
+					title="Frontend Developer · Pinnacle Pet UK"
+					subtitle="Feb 2021 – Present | London, UK"
+					blurb={[
+						'Built and maintained the Quote & Buy pet insurance journeys and customer portals for major UK brands including Sainsbury’s, Tesco, Argos, Post Office, and RSPCA.',
+					]}
+					badges={[
+						'React',
+						'TypeScript',
+						'ES6',
+						'Context',
+						'Redux',
+						'Playwright',
+						'Cypress',
+						'RESTful APIs',
+						'Optimizely',
+						'Figma',
+						'Formik',
+						'Yup',
+						'SCSS',
+					]}
+				/>
+				<ExperienceCard
+					title="Web Developer · Ignite Hospitality"
+					subtitle="Jul 2019 - Jan 2021 | London, UK"
+					blurb={[
+						'Developed WordPress websites in a fast-paced agency environment for several high-profile hospitality clients. Clients included D&D London, Drake & Morgan, Cinnamon Collection, Artist Residence, Pho, and Smith & Wollensky.',
+					]}
+					badges={['JavaScript', 'HTML', 'SCSS', 'WordPress', 'PHP', 'Sketch']}
+				/>
+				<ExperienceCard
+					title="Frontend Developer · Cornerstone"
+					subtitle="Dec 2018 - Jun 2019 | London, UK"
+					blurb={[
+						'Men’s grooming subscription startup. I built new features (e.g. the Gifts page) and components while adhering to the existing coding standards and guidelines.',
+					]}
+					badges={[
+						'React',
+						'Redux',
+						'JavaScript',
+						'ES6',
+						'Cypress',
+						'Jest',
+						'SCSS',
+					]}
+				/>
+				<ExperienceCard
+					title="Web Developer · Ignite Hospitality"
+					subtitle="Oct 2016 - Dec 2018 | London, UK"
+					blurb={[
+						'Developed WordPress websites in a fast-paced agency environment for several high-profile hospitality clients.',
+					]}
+					badges={[
+						'JavaScript',
+						'HTML',
+						'SCSS',
+						'WordPress',
+						'PHP',
+						'Photoshop',
+					]}
+				/>
+				<ExperienceCard
+					title="Frontend Web Developer · Hype!"
+					subtitle="Apr 2014 - Aug 2016 | London, UK"
+					blurb={[
+						'Created and maintained WordPress websites for clients such as UCL Laws, UCL Engineering and European CanCer Organisation.',
+					]}
+					badges={[
+						'JavaScript',
+						'HTML',
+						'SCSS',
+						'WordPress',
+						'PHP',
+						'Photoshop',
+					]}
+				/>
 
-				<ul className="project-list" role="list">
-					<li className="project-item">
-						{/*<Card
-							title="Pinnacle Pet UK · Pet insurance company · Frontend Developer · Full-time Feb 2021 –
-Present | London, UK"
-							// 			blurb="Video course that teaches how to build a web app with the Spotify Web
-							// API. Topics covered include the principles of REST APIs, user auth
-							// flows, Node, Express, React, Styled Components, and more."
-							blurb="Built using with React, TypeScript, ES6, Context API, Playwright, and RESTful APIs."
-						/>*/}
-
-						<article className="project mb-16" aria-labelledby="proj-1-title">
-							<h3>Frontend Developer, Pinnacle Pet UK</h3>
-							<h4>Full-time Feb 2021 – Present | London, UK </h4>
-							<p className="project-summary">
-								Built and maintained the Quote & Buy insurance journeys and
-								customer portals for major UK brands including Sainsbury’s,
-								Tesco, Argos, Post Office, and RSPCA.
-								{/*<br />
-								<br />
-								Short summary — problem solved, tech used, outcome. Lorem ipsum
-								dolor sit amet, consectetur adipiscing elit. Proin imperdiet
-								libero a libero maximus iaculis. Ut porttitor, tellus eu aliquam
-								tristique, lectus lorem molestie libero, ac laoreet libero
-								lectus sed magna. Maecenas nec ipsum nunc. Vivamus egestas leo
-								cursus, volutpat turpis ut, hendrerit quam.*/}
-							</p>
-							<p className="project-meta">React · TypeScript · Playwright</p>
-						</article>
-
-						<article className="project mb-16" aria-labelledby="proj-1-title">
-							{/*<a href="project-1/index.html" className="project-link">*/}
-							<h3>Job Title</h3>
-							<p className="project-summary">
-								Short summary — problem solved, tech used, outcome. Lorem ipsum
-								dolor sit amet, consectetur adipiscing elit. Proin imperdiet
-								libero a libero maximus iaculis. Ut porttitor, tellus eu aliquam
-								tristique, lectus lorem molestie libero, ac laoreet libero
-								lectus sed magna. Maecenas nec ipsum nunc. Vivamus egestas leo
-								cursus, volutpat turpis ut, hendrerit quam.
-							</p>
-							<p className="project-meta">React · TypeScript · Vite</p>
-							{/*</a>*/}
-							{/*<div className="project-actions">
-								<a
-									href="https://project-1.live"
-									aria-label="Project One — live demo"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									Live
-								</a>
-							</div>*/}
-						</article>
-					</li>
-				</ul>
+				<p>
+					<a
+						className="external-link ml-4"
+						href="https://www.dropbox.com/scl/fi/rn2yvslma5hwa15h0thpz/Nicholas_Smith_CV.pdf?rlkey=2gx8airlbl6omlqor88e9a5cd&e=1&st=mlxk2md1&dl=0"
+						target="_blank"
+						rel="noopener noreferrer"
+						aria-label="View full CV"
+					>
+						View full CV{' '}
+						<SquareArrowOutUpRight className="inline-block h-4 w-4 shrink-0 ml-1" />
+					</a>
+				</p>
 			</div>
 		</section>
 	);

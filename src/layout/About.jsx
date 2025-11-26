@@ -6,21 +6,13 @@ const About = () => {
 			aria-labelledby="about-heading"
 		>
 			<div className="container">
-				{/*<h2 id="about-heading" className="text-xl uppercase tracking-widest font-bold">*/}
 				<h2
 					id="about-heading"
-					className="text-xl font-bold py-5 lg:p-0 sticky top-0 z-20 lg:relative mb-4"
+					className="text-xl font-bold mb-0 py-5 lg:pb-4 lg:pt-0 sticky top-0 z-20 lg:relative"
 				>
 					About
 				</h2>
 
-				{/*<p>Short professional summary, skills and technologies.</p>*/}
-
-				{/*				<p className="lead">
-					I build accessible, performant front-end experiences using React,
-					TypeScript and modern tooling.
-				</p>
-			*/}
 				<p>
 					Front-end developer with 10+ years’ experience building high-quality,
 					user-focused web applications in fast-paced environments. Skilled in
@@ -35,21 +27,15 @@ const About = () => {
 					technologies to solve real-world problems.
 				</p>
 
-				{/*<p>
-				London-based, coffee drinker, learning to speak Italian.</p>*/}
-				{/*watching non-league football, */}
 				<p>
-					In my spare time I can be found mixing margaritas, planning trips to
-					Japan, drinking coffee, and learning to speak Italian.
+					In my spare time I can be found watching non-league football, mixing
+					margaritas, planning trips to Japan, drinking coffee, and learning to
+					speak Italian. London-based.
 				</p>
+
+				<br />
 				<small>
-					<p>
-						{/*<a href="/haiku">Here's a haiku I wrote about coding</a>.*/}
-						{/*<strong>Here's a haiku I wrote about coding:</strong>*/}
-						<br />
-						{/*Here's a haiku I wrote about coding:*/}
-						Here's a haiku about coding:
-					</p>
+					<p>Here's a haiku about coding:</p>
 
 					<p>コードの花 画面に咲き出す 光の詩</p>
 
@@ -60,15 +46,6 @@ const About = () => {
 						light.
 					</p>
 				</small>
-
-				{/*<p>
-					<a className="btn-primary" href="#contact">
-						Hire me
-					</a>
-					<a className="btn-ghost" href="#projects">
-						See my work
-					</a>
-				</p>*/}
 			</div>
 		</section>
 	);

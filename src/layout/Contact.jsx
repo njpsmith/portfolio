@@ -8,7 +8,7 @@ const Contact = () => {
 			<div className="container">
 				<h2
 					id="contact-heading"
-					className="text-xl font-bold py-5 lg:p-0 sticky top-0 z-20 lg:relative mb-4"
+					className="text-xl font-bold mb-0 py-5 lg:pb-4 lg:pt-0 sticky top-0 z-20 lg:relative"
 				>
 					Contact
 				</h2>

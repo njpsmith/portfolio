@@ -7,7 +7,16 @@ const Footer = () => {
 					{/*, Three.js*/}.{' '}
 					{/*WCAG AA
 					accessibility compliant. */}
-					All text is set in the Inter typeface.
+					All text is set in the Inter typeface. The code for this site can be
+					found{' '}
+					<a
+						href="https://github.com/njpsmith/portfolio"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						here
+					</a>
+					.
 				</p>
 				<p>
 					For a secret, <strong>enter the Konami Code</strong> (on desktop), or{' '}
@@ -15,22 +24,7 @@ const Footer = () => {
 				</p>
 				<p className="text-center lg:text-left">
 					© <time>{new Date().getFullYear()}</time>
-					{/*Your Name — Built with care.*/}
 				</p>
-				{/*<nav className="footer-nav" aria-label="Footer">
-					<ul>
-						<li>
-							<a href="https://github.com/njpsmith">
-								<Github />
-							</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/nicholas-smith-97a90829/">
-								<Linkedin />
-							</a>
-						</li>
-					</ul>
-				</nav>*/}
 			</div>
 		</footer>
 	);
