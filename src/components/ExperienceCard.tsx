@@ -9,7 +9,7 @@ type CardProps = {
 
 const ExperienceCard = ({ title, subtitle, blurb, badges }: CardProps) => {
 	return (
-		<div className="card mb-12">
+		<div className="experience-card mb-12">
 			<h3>{title}</h3>
 			<h4 className="mb-2 mt-1 text-xs font-semibold uppercase tracking-wide text-slate-500">
 				{subtitle}

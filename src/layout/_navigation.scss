@@ -1,0 +1,26 @@
+.nav-indicator {
+  color: $copy-color;
+}
+
+.nav {
+  a:hover {
+    .nav-indicator {
+      background-color: #6a7282;
+    }
+
+    .nav-text {
+      opacity: 1;
+    }
+  }
+}
+
+.active {
+  .nav-indicator {
+    width: 64px;
+    background-color: #6a7282;
+  }
+
+  .nav-text {
+    opacity: 1;
+  }
+}

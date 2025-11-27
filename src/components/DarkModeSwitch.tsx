@@ -1,20 +1,44 @@
+import { useEffect, useState } from 'react';
 import { Sun, Moon } from 'lucide-react';
 
-// Sound from https://uppbeat.io/
-
 const DarkModeSwitch = () => {
-	function playSound() {
-		// Play music
+	const [isNight, toggleNight] = useState(false);
+	console.log('isNight', isNight);
+
+	const handleClick = () => {
+		// Save in localStorage
+		localStorage.setItem('darkMode', !isNight);
+
+		toggleNight(!isNight);
+		playSound();
+	};
+
+	const playSound = () => {
+		// Play music. Sound from https://uppbeat.io/
 		const audio = document.getElementById('darkModeSound');
 		audio.currentTime = 0;
 		audio.play().catch((err) => {
 			console.warn('Audio play failed:', err);
 		});
-	}
+	};
+
+	useEffect(() => {
+		if (isNight) {
+			document.body.classList.add('night');
+		} else {
+			document.body.classList.remove('night');
+		}
+	}, [isNight]);
+
+	useEffect(() => {
+		const stored = localStorage.getItem('darkMode');
+		const isDark = stored === 'true';
+		toggleNight(isDark);
+	}, []);
 
 	return (
 		<div className="dark-mode mt-6">
-			<audio id="darkModeSound" preload="none">
+			<audio id="darkModeSound">
 				<source src="/assets/music/mechanical_click.mp3" type="audio/mpeg" />
 			</audio>
 			<div className="dark-mode-switch-wrapper">
@@ -22,7 +46,7 @@ const DarkModeSwitch = () => {
 
 				<div className="dark-mode-switch">
 					<input id="switch" type="checkbox" />
-					<label htmlFor="switch" id="toggle" onClick={() => playSound()}>
+					<label htmlFor="switch" id="toggle" onClick={() => handleClick()}>
 						Toggle
 					</label>
 				</div>

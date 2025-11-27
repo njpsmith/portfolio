@@ -42,7 +42,6 @@ const Projects = () => {
 						blurb={[
 							'Built the pet insurance customer portal for Tesco, which allows customers to make and track insurance claims, view and edit their details, view insurance documents and get 24 hour access to a vet team.',
 							'Migrated state management to Redux',
-							'Built using with React, TypeScript, ES6, Redux, and RESTful APIs.',
 						]}
 						badges={['React', 'TypeScript', 'ES6', 'Redux', 'RESTful APIs']}
 					/>

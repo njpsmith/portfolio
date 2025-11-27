@@ -41,7 +41,7 @@ const ProjectCard = ({
 				// scale: 1,
 			}}
 			// transition={{ type: 'spring', stiffness: 300 }}
-			className="card mb-12 bg-white rounded-2xl p-6 shadow-md relative"
+			className="project-card mb-12 bg-white rounded-2xl p-6 shadow-md relative"
 		>
 			<a href={link} target="_blank" rel="noopener noreferrer">
 				<h3 className="text-xl font-semibold">{title}</h3>

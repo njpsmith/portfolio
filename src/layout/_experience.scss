@@ -1,0 +1,11 @@
+.project-list {
+	a p {
+		font-weight: 400;
+	}
+}
+
+.project-card {
+	body.night & {
+		background: $project-card-dark-bg;
+	}
+}

@@ -7,6 +7,10 @@
 
 	svg {
 		color: $copy-color;
+
+		body.night & {
+			color: $dark-mode-color;
+		}
 	}
 
 	.dark-mode-switch {
@@ -48,8 +52,9 @@
 			}
 
 			&:checked + label {
-				background: #46edd5;
-				background: rgb(15, 24, 45);
+				// background: #46edd5;
+				background: #36b3a1;
+				// background: rgb(15, 24, 45);
 			}
 		}
 	}

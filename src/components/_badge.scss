@@ -39,6 +39,10 @@
   font-weight: 600;
   border: none;
 
+  body.night & {
+    border: 1px solid;
+  }
+
   &::before {
     content: '';
     position: absolute;
