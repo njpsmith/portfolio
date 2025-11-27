@@ -55,9 +55,7 @@ const ProjectCard = ({
 					<img
 						alt={imageAlt}
 						loading="lazy"
-						// width="200"
 						width="400"
-						// height="48"
 						className="aspect-video object-cover object-top rounded border-2 border-slate-200/10  group-hover:border-slate-200/30 mt-3"
 						src={imageSrc}
 					/>
