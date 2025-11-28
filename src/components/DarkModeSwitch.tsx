@@ -3,7 +3,6 @@ import { Sun, Moon } from 'lucide-react';
 
 const DarkModeSwitch = () => {
 	const [isNight, toggleNight] = useState(false);
-	console.log('isNight', isNight);
 
 	const handleClick = () => {
 		// Save in localStorage
@@ -33,7 +32,13 @@ const DarkModeSwitch = () => {
 	useEffect(() => {
 		const stored = localStorage.getItem('darkMode');
 		const isDark = stored === 'true';
-		toggleNight(isDark);
+
+		const setToDarkMode = isDark;
+
+		if (setToDarkMode) {
+			document.body.classList.add('night');
+			toggleNight(true);
+		}
 	}, []);
 
 	return (

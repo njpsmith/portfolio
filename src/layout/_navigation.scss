@@ -24,3 +24,9 @@
     opacity: 1;
   }
 }
+
+.nav-text {
+  body.night & {
+    color: $dark-mode-color;
+  }
+}

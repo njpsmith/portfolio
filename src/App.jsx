@@ -5,16 +5,10 @@ import KonamiCode from './components/easter-eggs/KonamiCode';
 
 function App() {
     useEffect(() => {
-        const systemPrefersDark = window.matchMedia(
-            '(prefers-color-scheme: dark)',
-        ).matches;
-
         const stored = localStorage.getItem('darkMode');
         const isDark = stored === 'true';
 
-        if (systemPrefersDark || isDark) {
-            document.body.classList.add('night');
-        }
+        isDark && document.body.classList.add('night');
 
         const checkbox = document.getElementById('switch'); // Dark mode toggle checkbox
         checkbox.checked = isDark;

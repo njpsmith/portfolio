@@ -32,6 +32,12 @@ const About = () => {
 					margaritas, planning trips to Japan, drinking coffee, and learning to
 					speak Italian. London-based.
 				</p>
+				<p>
+					Contact me:{' '}
+					<a href="mailto:smith.nicholasjp@gmail.com">
+						smith.nicholasjp@gmail.com
+					</a>
+				</p>
 
 				<br />
 				<small>

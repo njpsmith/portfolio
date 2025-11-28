@@ -4,7 +4,6 @@ const Footer = () => {
 			<div className="container">
 				<p>
 					Built with React.js, Vite, Tailwind CSS
-					{/*, Three.js*/}.{' '}
 					{/*WCAG AA
 					accessibility compliant. */}
 					All text is set in the Inter typeface. The code for this site can be
