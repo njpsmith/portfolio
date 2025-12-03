@@ -5,7 +5,7 @@ const Experience = () => {
 	return (
 		<section
 			id="experience"
-			className="experience mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+			className="experience mb-16 md:mb-24 lg:mb-36 scroll-mt-16 lg:scroll-mt-24"
 			aria-labelledby="experience-heading"
 		>
 			<div className="container">

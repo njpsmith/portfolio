@@ -5,7 +5,7 @@
 .nav {
   a:hover {
     .nav-indicator {
-      background-color: #6a7282;
+      background-color: $navigation-indicator-bg;
     }
 
     .nav-text {
@@ -17,7 +17,7 @@
 .active {
   .nav-indicator {
     width: 64px;
-    background-color: #6a7282;
+    background-color: $navigation-indicator-bg;
   }
 
   .nav-text {

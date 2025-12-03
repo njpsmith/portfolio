@@ -40,7 +40,7 @@ const About = () => {
 				</p>
 
 				<br />
-				<small>
+				{/*<small>
 					<p>Here's a haiku about coding:</p>
 
 					<p>コードの花 画面に咲き出す 光の詩</p>
@@ -51,7 +51,7 @@ const About = () => {
 						Flowers of pure code, blossom across the bright screen, a poem of
 						light.
 					</p>
-				</small>
+				</small>*/}
 			</div>
 		</section>
 	);

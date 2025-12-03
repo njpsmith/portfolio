@@ -15,11 +15,9 @@ const Header = () => {
 						animate={{ opacity: 1 }}
 						transition={{ delay: 0.2, duration: 0.8, ease: 'easeOut' }}
 					>
-						{/*<a href="#home" aria-label="Home — Nicholas Smith">*/}
 						<h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
 							Nicholas Smith
 						</h1>
-						{/*</a>*/}
 					</motion.div>
 					<motion.div
 						initial={{ opacity: 0 }}

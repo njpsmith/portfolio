@@ -22,15 +22,12 @@ const ProjectCard = ({
 	return (
 		<motion.div
 			initial={{
-				// boxShadow: '0px 0px 0px rgba(0,0,0,0)',
 				boxShadow: '0px 8px 20px rgba(0,0,0,0.15)',
 				scale: 1,
 			}}
 			whileHover={{
-				// scale: 1.015,
 				scale: 1.01,
 				boxShadow: '0px 8px 20px rgba(0,0,0,0.15)',
-				// boxShadow: '0px 8px 20px rgba(0,0,0,1)',
 			}}
 			transition={{
 				duration: 0.2,
@@ -38,9 +35,7 @@ const ProjectCard = ({
 			}}
 			whileTap={{
 				scale: 0.97,
-				// scale: 1,
 			}}
-			// transition={{ type: 'spring', stiffness: 300 }}
 			className="project-card mb-12 bg-white rounded-2xl p-6 shadow-md relative"
 		>
 			<a href={link} target="_blank" rel="noopener noreferrer">
@@ -56,7 +51,7 @@ const ProjectCard = ({
 						alt={imageAlt}
 						loading="lazy"
 						width="400"
-						className="aspect-video object-cover object-top rounded border-2 border-slate-200/10  group-hover:border-slate-200/30 mt-3"
+						className="aspect-video object-cover object-top rounded border-2 border-slate-200/10 group-hover:border-slate-200/30 mt-3"
 						src={imageSrc}
 					/>
 				</figure>

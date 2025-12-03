@@ -47,8 +47,6 @@ const Navigation = () => {
 				aria-label="Site navigation"
 				role="navigation"
 			>
-				{/*<nav className="nav lg:block" aria-label="Site navigation">*/}
-				{/*<ul className="mt-16 w-max">*/}
 				<ul className="mt-16">
 					{sectionIds.map((id) => (
 						<li key={id}>
@@ -72,7 +70,7 @@ const Navigation = () => {
 									});
 								}}
 							>
-								<span className="nav-indicator mr-4 h-px w-8 bg-slate-300 hover:bg-gray-500 transition-all group-hover:w-16  group-focus-visible:w-16 motion-reduce:transition-none"></span>
+								<span className="nav-indicator mr-4 h-px w-8 bg-slate-300 hover:bg-gray-500 transition-all group-hover:w-16 group-focus-visible:w-16 motion-reduce:transition-none"></span>
 								<span className="nav-text text-xs font-bold uppercase tracking-widest opacity-60 hover:opacity-100">
 									{id.charAt(0).toUpperCase() + id.slice(1)}
 								</span>
