@@ -3,11 +3,9 @@ const Footer = () => {
 		<footer className="site-footer" role="contentinfo">
 			<div className="container">
 				<p>
-					Built with React.js, Vite, Tailwind CSS
-					{/*WCAG AA
-					accessibility compliant. */}
-					All text is set in the Inter typeface. The code for this site can be
-					found{' '}
+					Built with React.js, Vite, and Tailwind CSS. WCAG AA accessibility
+					compliant. All text is set in the Inter typeface. The code for this
+					site can be found{' '}
 					<a
 						href="https://github.com/njpsmith/portfolio"
 						target="_blank"

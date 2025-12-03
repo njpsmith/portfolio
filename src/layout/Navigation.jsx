@@ -49,7 +49,10 @@ const Navigation = () => {
 			>
 				<ul className="mt-16">
 					{sectionIds.map((id) => (
-						<li key={id}>
+						<li
+							key={id}
+							{...(activeSection === id && { 'aria-current': 'page' })}
+						>
 							<button
 								className={`group flex items-center py-3 ${activeSection === id ? 'active' : ''}`}
 								onClick={() => {
@@ -88,8 +91,10 @@ const Navigation = () => {
 							href="https://github.com/njpsmith"
 							target="_blank"
 							rel="noopener noreferrer"
+							aria-label="My GitHub profile"
 						>
 							<motion.div
+								tabIndex={-1}
 								whileHover={{ scale: 1.1 }}
 								whileTap={{ scale: 0.9 }}
 								transition={{ type: 'spring', stiffness: 300 }}
@@ -104,8 +109,10 @@ const Navigation = () => {
 							href="https://www.linkedin.com/in/nicholas-smith-97a90829/"
 							target="_blank"
 							rel="noopener noreferrer"
+							aria-label="My LinkedIn profile"
 						>
 							<motion.div
+								tabIndex={-1}
 								whileHover={{ scale: 1.1 }}
 								whileTap={{ scale: 0.9 }}
 								transition={{ type: 'spring', stiffness: 300 }}

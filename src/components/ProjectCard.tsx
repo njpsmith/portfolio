@@ -37,6 +37,8 @@ const ProjectCard = ({
 				scale: 0.97,
 			}}
 			className="project-card mb-12 bg-white rounded-2xl p-6 shadow-md relative"
+			role="listitem"
+			tabIndex={-1}
 		>
 			<a href={link} target="_blank" rel="noopener noreferrer">
 				<h3 className="text-xl font-semibold">{title}</h3>
