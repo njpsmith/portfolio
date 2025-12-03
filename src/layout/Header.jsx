@@ -14,15 +14,20 @@ const Header = () => {
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ delay: 0.2, duration: 0.8, ease: 'easeOut' }}
+						aria-hidden="true"
 					>
 						<h1 className="text-4xl font-bold tracking-tight sm:text-5xl">
 							Nicholas Smith
 						</h1>
 					</motion.div>
+
+					<h1 className="sr-only">Nicholas Smith</h1>
+
 					<motion.div
 						initial={{ opacity: 0 }}
 						animate={{ opacity: 1 }}
 						transition={{ delay: 0.6, duration: 0.8, ease: 'easeOut' }}
+						aria-hidden="true"
 					>
 						<h2 className="mt-3 text-lg font-medium tracking-tight sm:text-xl">
 							Front End Developer
@@ -31,6 +36,11 @@ const Header = () => {
 							I build modern, scalable front-end applications for the web.
 						</p>
 					</motion.div>
+
+					<h2 className="sr-only">Front End Developer</h2>
+					<p className="sr-only">
+						I build modern, scalable front-end applications for the web.
+					</p>
 				</div>
 
 				<Navigation />
