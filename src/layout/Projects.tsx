@@ -62,6 +62,7 @@ const Projects = () => {
 						imageAlt="Doodle Jump game clone"
 						blurb={[
 							'A re-creation of the popular mobile platforming game Doodle Jump. Achieve a high score by climbing as high as possible. Falling to the bottom of the screen ends the game. Platforms, enemies and power-ups are randomly generated.',
+							'This project includes a custom game loop in React, physics calculations, collision detection, motion controls, platform generation, and state management edge cases.',
 						]}
 						badges={['React', 'ES6']}
 					/>
